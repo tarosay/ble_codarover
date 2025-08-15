@@ -48,10 +48,9 @@ radio.onReceivedValue(function (name, value) {
     	
     }
 })
-let 動く左 = 0
-let 動く右 = 0
 let P16_PWM = 0
 let P13_PWM = 0
+let 動く左 = 0
+let 動く右 = 0
 radio.setGroup(5)
-P13_PWM = 0
-P16_PWM = 0
+動く(0, 0)
